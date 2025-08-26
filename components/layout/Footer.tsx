@@ -152,16 +152,7 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
                 <Users className="w-5 h-5 text-amber-300" />
               </a>
               <a
-                href="/twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-stone-800/30 hover:bg-stone-700/50 rounded-lg transition-colors duration-200"
-                aria-label="Follow on Twitter"
-              >
-                <Twitter className="w-5 h-5 text-amber-300" />
-              </a>
-              <a
-                href="/github"
+                href="https://github.com/Chai-Foundation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-stone-800/30 hover:bg-stone-700/50 rounded-lg transition-colors duration-200"
