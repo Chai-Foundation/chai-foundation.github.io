@@ -34,7 +34,7 @@ const defaultFooter: { sections: FooterSection[] } = {
     //   title: 'Resources',
     //   links: [
     //     { label: 'Documentation', href: '/docs', icon: Book },
-    //     { label: 'Support', href: '/discord', icon: MessageCircle, external: true },
+    //     { label: 'Support', href: 'https://chailauncher.online/invite', icon: MessageCircle, external: true },
     //     { label: 'FAQ', href: '/faq', icon: FileText },
     //   ],
     // },
@@ -48,7 +48,7 @@ const defaultFooter: { sections: FooterSection[] } = {
     // {
     //   title: 'Community',
     //   links: [
-    //     { label: 'Discord', href: '/discord', icon: Users, external: true },
+    //     { label: 'Discord', href: 'https://chailauncher.online/invite', icon: Users, external: true },
     //     { label: 'Twitter', href: '/twitter', icon: Twitter, external: true },
     //     { label: 'GitHub', href: '/github', icon: Github, external: true },
     //   ],
@@ -91,7 +91,7 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
                 Download Now
               </Link>
               <Link
-                href="/discord"
+                href="https://chailauncher.online/invite"
                 className="border border-amber-400 hover:border-amber-300 text-stone-100 hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-amber-600/20 text-center"
               >
                 Join Community
@@ -143,7 +143,7 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a
-                href="/discord"
+                href="https://chailauncher.online/invite"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-stone-800/30 hover:bg-stone-700/50 rounded-lg transition-colors duration-200"

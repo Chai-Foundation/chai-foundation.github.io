@@ -23,7 +23,7 @@ import {
   export const SocialLinks = () => (
     <div className="flex gap-4 pt-2">
       <SocialIcon href="https://github.com/Far-Beyond-Pulsar/Pulsar-Engine" icon={<IconBrandGithub />} label="GitHub" />
-      <SocialIcon href="https://discord.gg/NM4awJWGWu" icon={<IconBrandDiscord />} label="Discord" />
+      <SocialIcon href="https://chailauncher.online/invite" icon={<IconBrandDiscord />} label="Discord" />
       <SocialIcon href="#" icon={<IconBrandX />} label="X (Twitter)" />
       <SocialIcon href="#" icon={<IconBrandYoutube />} label="YouTube" />
       <SocialIcon href="#" icon={<IconBrandTwitch />} label="Twitch" />
