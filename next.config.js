@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
     // !! WARN !!
@@ -7,35 +8,16 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'ui.aceternity.com',
-        port: '',
-        pathname: '**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'assets.aceternity.com',
-        port: '',
-        pathname: '**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'upload.wikimedia.org',
-        port: '',
-        pathname: '**',
-      },
-    ],
+    unoptimized: true,
   },
-  output: "export",
+  output: 'export',
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md$/,
       type: 'asset/source',
-    })
-    return config
+    });
+    return config;
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
