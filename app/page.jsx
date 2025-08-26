@@ -25,7 +25,7 @@ export default function Home() {
             Experience Minecraft like never before with enhanced performance and features.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Link href="https://github.com/tristanpoland/ChaiLauncher/releases/latest" className="group bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-amber-500/25 flex items-center gap-2">
+            <Link href="https://github.com/Chai-Foundation/ChaiLauncher/releases/latest" className="group bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-amber-500/25 flex items-center gap-2">
               <Download className="w-5 h-5" />
               Download Now
             </Link>

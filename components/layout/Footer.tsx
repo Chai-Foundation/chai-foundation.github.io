@@ -85,7 +85,7 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
             {/* Quick Actions */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                href="https://github.com/tristanpoland/ChaiLauncher/releases/latest"
+                href="https://github.com/Chai-Foundation/ChaiLauncher/releases/latest"
                 className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-amber-500/25 text-center"
               >
                 Download Now
