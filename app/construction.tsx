@@ -40,7 +40,7 @@ const ConstructionOverlay = ({ show = true }) => {
             Visit GitHub
           </a>
           <a 
-            href="https://discord.gg/NM4awJWGWu" 
+            href="https://chailauncher.online/invite" 
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-neutral-800 hover:bg-neutral-700 text-neutral-100 rounded-lg transition-all"

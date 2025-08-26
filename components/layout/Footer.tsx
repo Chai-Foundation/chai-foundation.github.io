@@ -34,7 +34,7 @@ const defaultFooter: { sections: FooterSection[] } = {
     //   title: 'Resources',
     //   links: [
     //     { label: 'Documentation', href: '/docs', icon: Book },
-    //     { label: 'Support', href: '/discord', icon: MessageCircle, external: true },
+    //     { label: 'Support', href: 'https://chailauncher.online/invite', icon: MessageCircle, external: true },
     //     { label: 'FAQ', href: '/faq', icon: FileText },
     //   ],
     // },
@@ -48,7 +48,7 @@ const defaultFooter: { sections: FooterSection[] } = {
     // {
     //   title: 'Community',
     //   links: [
-    //     { label: 'Discord', href: '/discord', icon: Users, external: true },
+    //     { label: 'Discord', href: 'https://chailauncher.online/invite', icon: Users, external: true },
     //     { label: 'Twitter', href: '/twitter', icon: Twitter, external: true },
     //     { label: 'GitHub', href: '/github', icon: Github, external: true },
     //   ],
@@ -85,13 +85,13 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
             {/* Quick Actions */}
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
-                href="#download"
+                href="https://github.com/tristanpoland/ChaiLauncher/releases/latest"
                 className="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-amber-500/25 text-center"
               >
                 Download Now
               </Link>
               <Link
-                href="/discord"
+                href="https://chailauncher.online/invite"
                 className="border border-amber-400 hover:border-amber-300 text-stone-100 hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-amber-600/20 text-center"
               >
                 Join Community
@@ -143,7 +143,7 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a
-                href="/discord"
+                href="https://chailauncher.online/invite"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-stone-800/30 hover:bg-stone-700/50 rounded-lg transition-colors duration-200"
@@ -152,16 +152,7 @@ export default function Footer({ footer = defaultFooter }: FooterProps) {
                 <Users className="w-5 h-5 text-amber-300" />
               </a>
               <a
-                href="/twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-stone-800/30 hover:bg-stone-700/50 rounded-lg transition-colors duration-200"
-                aria-label="Follow on Twitter"
-              >
-                <Twitter className="w-5 h-5 text-amber-300" />
-              </a>
-              <a
-                href="/github"
+                href="https://github.com/Chai-Foundation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-stone-800/30 hover:bg-stone-700/50 rounded-lg transition-colors duration-200"
