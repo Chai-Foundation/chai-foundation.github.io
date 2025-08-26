@@ -29,7 +29,7 @@ export default function Home() {
               <Download className="w-5 h-5" />
               Download Now
             </Link>
-            <Link href="/discord" className="group border-2 border-amber-400 hover:border-amber-300 text-stone-100 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-amber-600/20 flex items-center gap-2">
+            <Link href=" https://discord.gg/r6VSKHh97D" className="group border-2 border-amber-400 hover:border-amber-300 text-stone-100 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:bg-amber-600/20 flex items-center gap-2">
               <Users className="w-5 h-5" />
               Join Discord
             </Link>
